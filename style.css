@@ -141,28 +141,28 @@ h2 {
 	margin-bottom:8px;
 }
 #sidebar h2 {
-	color:#656f42;
+	color: coral;
 	text-shadow:#fff 1px 1px 1px;
 }
 .post h2 a {
-	color:#656f42;
+	color: coral;
 	text-decoration:none;
 }
 .normalpage .post h2 a {
-	color:#656f42!important;
+	color: coral!important;
 	text-decoration:none;
 }
 .post h2 a:active, .post h2 a:visited {
-	color:#656f42;
+	color: coral;
 	text-decoration:none;
 }
 .post h2 a:hover {
-	color:#474f24!important;
+	color: coral !important;
 }
 .ftcontent h2 {
 	background:url(images/boxh2bg.jpg) left bottom repeat-x;
 	padding-bottom:5px;
-	color:#656f42;
+	color: coral;
 	text-shadow:#dde4c4 1px 1px 1px;
 }
 .hboxthumb {
@@ -178,7 +178,7 @@ h2 {
 	width:122px;
 	text-align:center;
 	padding:5px 0 0 0;
-	color:#5b6435!important;
+	color: coral!important;
 	font:bold 16px Comfortaa;
 	text-decoration:none;
 	text-shadow:#e0e5c9 1px 1px 1px;
@@ -223,10 +223,10 @@ h2 {
 	display:block;
 	background:#313719;
 	padding:5px;
-	border-left: solid 1px #21250f;
-	border-bottom:solid 1px #848e59;
+	border-left: solid 1px coral;
+	border-bottom:solid 1px coral;
 	border-top:solid 1px #21250f;
-	border-right:solid 1px #848e59;
+	border-right:solid 1px grey;
 }
 #bottom h2 {
 	display:block;
@@ -250,7 +250,7 @@ h2 {
 .footerlinks li a {
 	color:#fff;
 	background:url(images/footerli.gif) 5px 6px no-repeat;
-	text-shadow:#3b441d 1px 1px 1px;
+	text-shadow:goldenrod 1px 1px 1px;
 	height:28px;
 	padding:5px 8px 0 22px;
 	display:block;
@@ -411,7 +411,7 @@ blockquote.alignright {
 	font:bold 18px Comfortaa;
 	padding:5px;
 	color:#fff;
-	border:solid 1px #444b2b;
+	border:solid 1px coral;
 }
 #sidebar li {
 	display:block;
@@ -421,7 +421,7 @@ blockquote.alignright {
 	text-transform:capitalize;
 }
 #sidebar a {
-	color:#656f42;
+	color:coral;
 	text-shadow:#fff 1px 1px 1px;
 	text-decoration:none;
 }
