@@ -65,8 +65,9 @@ ul {
 }
 #sitename {
 	font: normal 46px chunk;
-	color:#1b2502;
-	text-shadow:#5d7a17 1px 1px 1px;
+	color:black;
+	text-shadow: grey 1px 1px 1px;
+	
 	display:block;
 	padding:45px 0 0 0;
 	width:60%;
