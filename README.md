@@ -8,7 +8,7 @@ https://festive-poitras-91aec2.netlify.app/
 
 Live View
 
-Kelompok:
+Kelompok 23 Kelas B beranggotakan:
 535170089 - Fattah |
 535170092 - Syawal |
 535170102 - Brandon |
