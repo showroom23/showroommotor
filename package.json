@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/showroom23/showroommotor/issues"
   },
-  "homepage": "https://github.com/showroom23/showroommotor#readme"
+  "homepage": "https://github.com/showroom23/showroommotor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
 }
