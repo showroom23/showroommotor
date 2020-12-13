@@ -22,3 +22,8 @@ app.set('layout extractScripts', true);
 
 
 const indexRouter = require('./routers/index')
+
+
+app.listen(3000);
+
+console.log('AH MANTAP');
