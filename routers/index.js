@@ -3,14 +3,8 @@ const router = express.Router();
 
 router.get('/',
     async(req,res) =>{
-        res.render('pages/honda');
+        res.send('Ok');
     }
 );
 
-router.post('',
-    async(req,res)=> {
-        res.render('pages/Honda');
-    }
-);
-
-console.log('AH MANTAP');
+module.exports = router;

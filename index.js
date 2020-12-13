@@ -15,6 +15,7 @@ const ReserveRoutes = require('./routers/Reserve');
 const SuzukiRoutes = require('./routers/Suzuki');
 const YamahaRoutes = require('./routers/Yamaha');
 
+app.use('/index', IndexRoutes);
 
 app.listen(8085);
 
