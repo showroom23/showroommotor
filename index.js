@@ -1,7 +1,5 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const session = require('express-session');
-const layouts = require('express-ejs-layouts');
 
 const app = express();
 
@@ -10,19 +8,14 @@ app.set('view engine','ejs');
 app.use(bodyParser.urlencoded());
 app.use(express.static('public'));
 
-
-app.use(session({
-    cookie: {}
-}));
-
-app.use(layouts);
-app.set('layouts', 'layouts/index.ejs');
-app.set('layout extractStyles', true);
-app.set('layout extractScripts', true);
+const IndexRoutes = require('./routers/index');
+const HondaRoutes = require('./routers/Honda');
+const KawasakiRoutes = require('./routers/Kawasaki');
+const ReserveRoutes = require('./routers/Reserve');
+const SuzukiRoutes = require('./routers/Suzuki');
+const YamahaRoutes = require('./routers/Yamaha');
 
 
-const indexRouter = require('./routers/index')
+app.listen(8085);
 
-
-
-console.log('AH MANTAP');
+console.log('tes');
