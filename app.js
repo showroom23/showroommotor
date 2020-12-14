@@ -45,5 +45,7 @@ app.get('/reserve', (req, res) => {
 })
 
 
-// Listen on Port 5000
+
 app.listen(port, () => console.info(`App listening on port ${port}`))
+
+console.log('Listening at 5002......')
