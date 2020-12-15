@@ -4,9 +4,11 @@ Repository ini adalah punya salah satu kelompok Web Programming - Kelas B,
 yang membahas tentang Showroom motor.
 terdiri dari :
 
-https://festive-poitras-91aec2.netlify.app/
+Live View https://festive-poitras-91aec2.netlify.app/
 
-Live View
+**UAS
+Project blm dapat live dikarenakan terdapat node yang tidak sesuai, dan masih diusahakan sampai berhasil.
+program dapat dijalankan pada localhost:5002.
 
 Kelompok 23 Kelas B:
 535170089 - Fattah |
