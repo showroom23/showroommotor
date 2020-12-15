@@ -1,11 +1,14 @@
 // Imports
 const express = require('express')
 const expressLayouts = require('express-ejs-layouts')
+const bodyParser= require('body-parser');
 const mongoose = require("mongoose");
 const cookieSession = require("cookie-session");
 const bcrypt = require("bcrypt");
 
 const User = require("./models/User");
+
+mongoose.connect("mongodb://localhost:27017/userDB");
 
 const authenticateUser = require("./middlewares/authenticateUser");
 
@@ -15,6 +18,7 @@ const app = express()
 const port = 5002
 
 // Static Files
+app.use(bodyParser.urlencoded({extended: true}))
 app.use(express.static('public'))
 app.use('/css', express.static(__dirname + 'public/css'))
 
@@ -51,7 +55,7 @@ app.get('/kawasaki', (req, res) => {
 
 
 mongoose
-  .connect("mongodb+srv://WPAdmin:<LmMJkVUkMTQQ5q4z>@cluster0.vn9p5.mongodb.net/cluster0?retryWrites=true&w=majority", {
+  .connect("mongodb://localhost/databaseName", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
