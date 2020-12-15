@@ -7,6 +7,8 @@ terdiri dari :
 Live View https://festive-poitras-91aec2.netlify.app/
 
 **UAS
+live view https://git.heroku.com/projectuas.git/
+
 Project blm dapat live dikarenakan terdapat node yang tidak sesuai, dan masih diusahakan sampai berhasil.
 program dapat dijalankan pada localhost:5002.
 
